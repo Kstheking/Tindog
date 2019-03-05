@@ -1,0 +1,143 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+#title{
+  background-color: #FF4c68;
+  color: white;
+}
+.container-fluid{
+  padding: 3% 15%;
+  overflow: hidden;
+}
+.row1{
+  padding: 5rem 0rem 5rem 2rem;
+}
+.row h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  /* visual hierarchy maintained */
+  line-height: 1.5;
+}
+.img1{
+  transform:rotate(25deg);
+  position: relative;
+  top: 5rem;
+  width: 70%;
+  padding-left: 2rem;
+}
+@media (max-width:1028px) {
+  .img1{
+    transform: rotate(0);
+    position: static;
+  }
+  #title{
+    text-align: center;
+  }
+}
+/* Navbar Brand */
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 1rem;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light';
+}
+
+/* Download Buttons */
+.dwnbtn{
+  margin: 1rem 1rem 1rem 0;
+}
+
+#features{
+  text-align: center;
+  padding: 6.5rem 0;
+}
+/* icons */
+.icn{
+  font-size: 3rem;
+  color: #ef8172;
+  padding: 1.5rem 0;
+}
+.icn:hover{
+  color: #ff4c68;
+}
+#features h3{
+  font-family: 'Montserrat-Bold';
+  font-size: 1.5rem;
+}
+#features p{
+  color: #8f8f8f;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Testimonials section */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+#testimonials h2{
+  font-family: 'Montserrat-Bold';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#testimonials img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#testimonials .icn{
+  position: absolute;
+  right: -8vw;
+}
+#testimonials .icn1{
+  position: absolute;
+  left: -8vw;
+}
+/* Press Section */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#press img{
+  width: 13%;
+  margin: 90px 20px 50px;
+}
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+#pricing .pricingcol{
+  padding:3% 2%;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 50px;
+}
+#cta h3{
+  font-family: 'Montserrat-Black', sans-serif;
+  color: white;
+  padding-bottom: 50px;
+  font-size: 35px;
+  font-weight: bold;
+}
+#footer{
+  text-align: center;
+  padding: 30px;
+}
+
+#footer .icn2{
+  padding: 20px;
+}
+#footer p{
+  color: #a9a9a9;
+}
